@@ -2,6 +2,8 @@
 # Copyright © 2016 The developers of libertine linux's package mpc. See the COPYRIGHT file in the top-level directory of this distribution and at https://raw.githubusercontent.com/libertine-linux-packages/mpc/master/COPYRIGHT.
 
 
+depends build_busybox
+
 case "$package" in
 	
 	build_musl_cross_make_mpc)
